@@ -1,0 +1,39 @@
+{
+  "notes": [
+    {
+      "content": "the app state is in redux store",
+      "important": true,
+      "id": 1
+    },
+    {
+      "content": "state changes are made with actions",
+      "important": false,
+      "id": 2
+    },
+    {
+      "content": "new one",
+      "important": false,
+      "id": 3
+    },
+    {
+      "content": "another new note",
+      "important": false,
+      "id": 4
+    },
+    {
+      "content": "minotaur",
+      "important": false,
+      "id": 5
+    },
+    {
+      "content": "Web",
+      "important": false,
+      "id": 6
+    },
+    {
+      "content": "Withered Hand",
+      "important": false,
+      "id": 7
+    }
+  ]
+}
