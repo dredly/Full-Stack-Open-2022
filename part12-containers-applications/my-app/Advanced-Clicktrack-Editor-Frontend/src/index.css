@@ -1,0 +1,60 @@
+body {
+	margin: 0;
+}
+
+.med-top-margin {
+	margin-top: 2rem;
+}
+
+.small-bottom-margin {
+	margin-bottom: 0.4rem;
+}
+
+.small-left-margin {
+	margin-left: 0.4rem;
+}
+
+.small-right-margin {
+	margin-right: 0.4rem;
+}
+
+.click-track-section {
+	padding: 0.5rem;
+	border: 1px solid rgb(14, 11, 32);
+	border-radius: 5px;
+	width: fit-content;
+}
+
+.help-icon {
+	background-color: rgb(103, 134, 206);
+	border: 1px solid rgb(51, 58, 74);
+	border-radius: 3px;
+	cursor: pointer;
+	height: fit-content;
+}
+
+.sample {
+	width: fit-content;
+}
+
+.selected-sample {
+	background-color: rgb(22, 163, 156);
+}
+
+.secondary-selected-sample {
+	border: 2px solid rgb(35, 83, 32);
+	border-radius: 2px;
+}
+
+.hidden {
+	display: none;
+}
+
+.flex-row-container-responsive {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.center-aligned-flex {
+	align-items: center;
+}

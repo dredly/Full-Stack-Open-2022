@@ -1,0 +1,32 @@
+services:
+  frontend:
+    image: editor-frontend
+    build:
+      context: ./Advanced-Clicktrack-Editor-Frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3000:80
+    container_name: editor-frontend
+
+  audio-backend:
+    image: audio-backend
+    build:
+      context: ./Advanced-Clicktrack-Audio-Backend
+      dockerfile: Dockerfile
+    ports:
+      - 5001:8000
+    container_name: audio-backend
+
+  user-backend:
+    image: user-backend
+    build:
+      context: ./Advanced-Clicktrack-User-Backend
+      dockerfile: Dockerfile 
+    ports:
+      - 3002:3002
+    environment:
+      NODE_ENV: production
+      MONGODB_URI_PROD: ${MONGODB_URI_PROD}
+      SECRET: ${SECRET}
+      PORT: 3002
+    container_name: user-backend
